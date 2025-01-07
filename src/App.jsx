@@ -1,5 +1,4 @@
-import React from "react";
-import Adminpanel from "./pages/Adminpanel";
+import Adminpanel from "../src/pages/Adminpanel";
 import LoginForm from "./components/LoginForm";
 
 let isLoggedIn = true;
