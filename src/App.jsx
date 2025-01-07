@@ -2,7 +2,8 @@ import React from "react";
 import Adminpanel from "./pages/Adminpanel";
 import LoginForm from "./components/LoginForm";
 
-let content = !isLoggedIn ? <Adminpanel /> : <LoginForm />;
+let isLoggedIn = true;
+let content = isLoggedIn ? <Adminpanel /> : <LoginForm />;
 
 const App = () => {
   return (
