@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Adminpanel from "./pages/Adminpanel";
+import LoginForm from "./components/LoginForm";
+
+let content = !isLoggedIn ? <Adminpanel /> : <LoginForm />;
 
 const App = () => {
   return (
-    <div className='text-5xl text-blue-500'>
-      App
-    </div>
-  )
-}
+    <>
+      <div className="flex flex-col items-center justify-center">{content}</div>
+    </>
+  );
+};
 
-export default App
+export default App;
