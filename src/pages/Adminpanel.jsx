@@ -11,7 +11,7 @@ const user = {
 
 const Adminpanel = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-4">
       <h1>Welcome to {user.name}</h1>
 
       <img src={user.imageUrl} alt={`Photo of ${user.name}`} />
