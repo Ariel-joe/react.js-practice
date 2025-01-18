@@ -15,7 +15,7 @@ const UserProfile = () => {
       <h1>{user.name}</h1>
       <p>Age: {user.age}</p>
       <p>Location: {user.location}</p>
-      <button onClick={updateAge}>Update age</button>
+      <button onClick={updateAge} className="bg-black px-4 py-2 text-white">Update age</button>
     </div>
   );
 };
