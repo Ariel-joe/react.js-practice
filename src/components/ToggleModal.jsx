@@ -12,6 +12,6 @@ const ToggleModal = () => {
       this is a modal
     </dialog>
   )
-}
+} 
 
 export default ToggleModal
